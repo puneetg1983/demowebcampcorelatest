@@ -38,7 +38,7 @@ namespace demowebcampcorelatest.Controllers
 
         public IActionResult HighSleep()
         {
-            Thread.Sleep(200000);
+            Thread.Sleep(215 * 1000);
             return View();
         }
 
